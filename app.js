@@ -8,7 +8,7 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.getElementsByClassName("new-task_js")[0];//Add a new task.
+var taskInput=document.getElementsByClassName("new-task__js")[0];//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementsByClassName("todo")[0];//ul of #itodo
 var completedTasksHolder=document.getElementsByClassName("completed")[0];//completed
@@ -47,6 +47,7 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="delete button";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.alt=' ';
     deleteButtonImg.classList.add("delete__img")
     deleteButton.appendChild(deleteButtonImg);
 
