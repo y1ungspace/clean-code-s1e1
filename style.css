@@ -53,7 +53,7 @@
 }
 
 .todo__list,
-.cpmpleted__list, 
+.completed__list, 
 .heading {
   list-style: none;
 }
@@ -91,7 +91,7 @@
   text-transform: uppercase;
 }
 
-.new-task__input {
+.intut_active {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
