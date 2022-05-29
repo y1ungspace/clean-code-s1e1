@@ -46,8 +46,8 @@
   display: flex;
 }
 
-#todo, 
-#completed {
+.todo, 
+.completed {
   margin: 0;
   padding: 0px;
 }
@@ -58,7 +58,7 @@
   list-style: none;
 }
 
-.input,
+.checkbox,
 .button {
   outline: none;
 }
@@ -91,7 +91,7 @@
   text-transform: uppercase;
 }
 
-.intut_active {
+.input_active {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -165,7 +165,7 @@
 
 /* Completed */
 
-.completed__label {
+.checkbox:checked ~ .task {
   text-decoration: line-through;
   color: #888;
 }
